@@ -1,7 +1,7 @@
 # hitmole2.py
 # import numpy as np # numpy 임포트
 import numpy as np # numpy 임포트
-<span style="color:red"> import </span>
+<span style="color:blue;">파란색 글씨</span>
 
 import random as rd # ramdom 모듈 임포트 
 import time # time 모듈 임포트 
