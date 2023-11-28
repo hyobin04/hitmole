@@ -1,8 +1,5 @@
 # hitmole2.py
-# import numpy as np # numpy 임포트
-import numpy as np # numpy 임포트
-<span style="color:blue;">파란색 글씨</span>
-
+import numpy as np __# numpy 임포트__
 import random as rd # ramdom 모듈 임포트 
 import time # time 모듈 임포트 
 from pynput import keyboard as kb # pynput에서 keyboard모듈을 임포트 
