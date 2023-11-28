@@ -6,15 +6,15 @@ from pynput import keyboard as kb __#pynput에서 keyboard 모듈을 임포트__
 from threading import Timer __# threading 모듈에서 Timer 클래스를 가져옵니다. 이 클래스를 사용하면 일정 시간이 지난 후에 특정 함수를 실행할 수 있다.__  
 import hitmole_pkg.hitmole_boards as boards __# hitmole_pkg 패키지에서 hitmole_boards 모듈을 가져와서 이를 boards로 지정합니다__  
 
-class LengthError(Exception):
-    def __init__(self):
-        super().__init__('6자 이내로 작성')
+class LengthError(Exception):  
+    def __init__(self):  
+        super().__init__('6자 이내로 작성')  
 
-class AlphabetError(Exception):
-    def __init__(self):
-        super().__init__('영어 소문자로 작성')
+class AlphabetError(Exception):  
+    def __init__(self):  
+        super().__init__('영어 소문자로 작성')  
 
-class HitMole:
+class HitMole:  
     '''
     두더지 게임 클래스
 
