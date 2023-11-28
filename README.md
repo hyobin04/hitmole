@@ -1,10 +1,10 @@
 # hitmole2.py
-import numpy as np __# numpy 임포트__
-import random as rd # ramdom 모듈 임포트 
-import time # time 모듈 임포트 
-from pynput import keyboard as kb # pynput에서 keyboard모듈을 임포트 
-from threading import Timer # threading 모듈에서 Timer 클래스를 가져옵니다. 이 클래스를 사용하면 일정 시간이 지난 후에 특정 함수를 실행할 수 있습니다.
-import hitmole_pkg.hitmole_boards as boards
+import numpy as np # __numpy 임포트__  
+import random as rd # __ramdom 모듈 임포트__  
+import time # __time 모듈 임포트__  
+from pynput import keyboard as kb __#pynput에서 keyboard 모듈을 임포트__   
+from threading import Timer __# threading 모듈에서 Timer 클래스를 가져옵니다. 이 클래스를 사용하면 일정 시간이 지난 후에 특정 함수를 실행할 수 있습니다__  
+import hitmole_pkg.hitmole_boards as boards __# hitmole_pkg 패키지에서 hitmole_boards 모듈을 가져와서 이를 boards로 지정합니다__  
 
 class LengthError(Exception):
     def __init__(self):
