@@ -48,6 +48,8 @@ class HitMole:
     def wait_keyboard(self, timeout=None):
         '''사용자로부터 키보드 입력'''
         def on_press(key):
+            kb.Controller().press(kb.Key.backspace)
+            kb.Controller().release(kb.Key.backspace)
             try:  # key.char 는 입력된 키보드값이 문자열이 아니면 오류가 남.
                 if key == kb.Key.space:
                     self.click = "space"
